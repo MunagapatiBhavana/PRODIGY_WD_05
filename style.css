@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://res.cloudinary.com/db94auffn/image/upload/v1717599677/pexels-photo-912364.jpeg_bvttf6.jpg');
+    background-size: cover;
+    background-position: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content:space-evenly;
+    margin: 0;
+}
+
+.my-h1 {
+    font-family: "Lora", serif;
+    font-size: 50px;
+    color: #090d11;
+    padding-bottom: 600px;
+   padding-left: 80px;    
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.weather-data {
+    margin-top: 20px;
+}
+
+.weather-data h2 {
+    margin: 0;
+    font-size: 24px;
+    color: darkred;
+}
+
+.weather-data p {
+    margin: 5px 0;
+    font-size: 30px;
+    color: blueviolet;
+}
